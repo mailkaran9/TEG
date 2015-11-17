@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a" />
+    <item
+        android:title="Add Event"
+        android:id="@+id/addEvent" />
+    
+    <item
+        android:title="Societies"
+        android:id="@+id/societies" />
+    
+    <item
+        android:title="Developers"
+        android:id="@+id/developers" />
+     
+
+</menu>

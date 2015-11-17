@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+        
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+   <ImageView
+        android:id="@+id/pic"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"        
+        android:scaleType="fitXY"
+        android:background="#fff"
+        />
+
+   
+     <TextView
+        android:id="@+id/titlelabel"
+        android:textStyle="bold"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titlelabel" />
+     
+     <TextView
+        android:id="@+id/title"
+        android:textStyle="bold" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/titlelabel" 
+        android:scaleType="fitXY"
+         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+ <TextView
+        android:id="@+id/desclabel"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlelabel"
+        android:scaleType="fitXY"
+        android:text="@string/desclabel" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/desclabel" />
+
+    <TextView
+        android:id="@+id/datelabel"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desclabel"
+        android:scaleType="fitXY"
+        android:text="@string/datelabel" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/datelabel" />
+
+        
+<TextView
+        android:id="@+id/venuelabel"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/datelabel"
+        android:text="@string/venuelabel" />
+
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/venuelabel" />
+    
+    <TextView
+        android:id="@+id/timelabel"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venuelabel"
+        android:scaleType="fitXY"
+        android:text="@string/timelabel" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/timelabel" />
+    
+      
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+
+ 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+        
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="179dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/tulogo" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:text="Thapar University"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:scaleType="fitXY"
+ 		android:fontFamily="sans-serif"      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To hone the assorted talents that the students in Thapar possess, the university is abounding with societies from the ones like the nautanki team to the dance club and the literary society. Being at Thapar and doing just the academics well won't suffice, these societies unveil the true potential of students in various fields" />
+
+    <Button
+        android:id="@+id/Society"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:scaleType="fitXY"
+        android:text="Societies" />
+
+</LinearLayout>
+
+ </ScrollView>
+

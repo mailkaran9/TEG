@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+     >
+ 
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="fill_parent"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+        
+    <TextView
+        android:id="@+id/titlelabel"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dip"        
+        android:text="@string/titlelabel" />
+
+    <TextView
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dip"        
+        android:layout_toRightOf="@+id/titlelabel" />
+
+    <TextView
+        android:id="@+id/emaillabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlelabel"
+        android:visibility="gone"
+        android:text="@string/emaillabel" />
+
+    <TextView
+        android:id="@+id/email"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/emaillabel" />
+
+    <TextView
+        android:id="@+id/Presidentlabel"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emaillabel"
+        android:text="@string/presidentlabel" />
+
+    <TextView
+        android:id="@+id/president"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_toRightOf="@+id/presidentlabel" />
+    <TextView
+        android:id="@+id/genseclabel"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/presidentlabel"
+        android:text="@string/genseclabel" />
+
+    <TextView
+        android:id="@+id/gensec"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/president"
+        android:layout_toRightOf="@+id/genseclabel" />
+    
+     <TextView
+        android:id="@+id/desclabel"    
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genseclabel"
+        android:text="@string/desclabel" />
+
+    <TextView
+        android:id="@+id/description"        
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gensec"
+        android:layout_toRightOf="@+id/desclabel" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:padding="1dp" />
+ 
+</RelativeLayout>

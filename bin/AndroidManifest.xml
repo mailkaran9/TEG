@@ -1,0 +1,87 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.teg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.app.teg.MainActivity" >
+                        
+        </activity>
+        
+        <activity android:name="com.app.teg.MainActivity2" >
+            
+        </activity>
+        
+        <activity android:name="com.app.teg.MainActivity3" >
+            
+        </activity>
+        
+        <activity android:name="com.app.teg.MainActivity4" >
+            
+        </activity>
+        
+        
+        
+        <activity android:name="com.app.teg.HomeClass" >
+                        
+              
+        </activity>
+        
+        
+        <activity android:name="com.app.teg.SocietiesFragment" >
+                        
+              
+        </activity>
+        
+          <activity android:name="com.app.teg.MissionFragment" >
+                        
+              
+        </activity>
+        
+        <activity android:name="com.app.teg.DrawerClass" >
+         
+             
+              
+        </activity>
+        
+         <activity
+            android:name="com.app.teg.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+       
+        <activity android:name="com.app.teg.SingleItemView" >
+           
+        </activity>
+        <activity android:name="com.app.teg.HomeFragment" >
+           
+        </activity>
+        
+        
+        
+        <activity android:name="com.app.teg.AddEventFragment" >
+                        
+              
+        </activity>
+        
+        <activity android:name="com.app.teg.SingleItemView2" >
+        </activity>
+    </application>
+
+</manifest>
